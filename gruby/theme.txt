@@ -32,6 +32,10 @@ terminal-border: "0"
   width = 100%
   align = "center"
   id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#777777"
+  font = "Unifont Regular 18"
+  background_color = "transparent"  # Transparenter Hintergrund hinzufügen
   # DE
   # text = "Start in %d Sekunden."
   # EN
@@ -76,6 +80,10 @@ terminal-border: "0"
   top = 100%-24
   width = 100%
   align = "center"
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  color = "#777777"
+  font = "Unifont Regular 18"
+  background_color = "transparent"  # Transparenter Hintergrund hinzufügen
   # DE
   # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
   # EN
