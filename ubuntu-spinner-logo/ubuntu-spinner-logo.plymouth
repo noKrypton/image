@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=VendettaOS plymouth
+Description=A theme that from V-OS
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/vendetta
+ScriptFile=/lib/plymouth/themes/vendetta/v.script
