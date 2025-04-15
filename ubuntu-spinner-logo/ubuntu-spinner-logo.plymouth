@@ -4,5 +4,5 @@ Description=A theme that from V-OS
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/vendetta
-ScriptFile=/lib/plymouth/themes/vendetta/v.script
+ImageDir=/lib/plymouth/themes/ubuntu-spinner-logo
+ScriptFile=/lib/plymouth/themes/vendetta/ubuntu-spinner-logo.script
