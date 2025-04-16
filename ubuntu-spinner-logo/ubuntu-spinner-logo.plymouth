@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=VendettaOS plymouth
+Description=A theme that from V-OS
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/logo-slider
+ScriptFile=/lib/plymouth/themes/logo-slider/ubuntu-spinner-logo.script
