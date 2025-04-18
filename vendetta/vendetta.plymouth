@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=vendetta
-Description=VendettaOS plymouth theme
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/vendetta
-ScriptFile=/usr/share/plymouth/themes/vendetta/vendetta.script
