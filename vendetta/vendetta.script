@@ -1,0 +1,40 @@
+// Animierte Skorpion-Grafik mit Ladepunkten
+
+// Bildschirmgröße ermitteln
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+// Frames vorbereiten (frame1.png bis frame8.png im frames-Verzeichnis)
+images = [];
+for (i = 1; i <= 8; i++) {
+    images[i - 1] = Image("frame" + i + ".png");
+}
+
+// Bildabmessungen (alle gleich)
+image_width = images[0].GetWidth();
+image_height = images[0].GetHeight();
+
+// Zentrierung
+x = (screen_width  - image_width) / 2;
+y = (screen_height - image_height) / 2;
+
+// Aktueller Frameindex
+current_frame = 0;
+
+// Animationsfunktion
+Function UpdateAnimation() {
+    Window.Clear();
+
+    // Bild zeichnen
+    images[current_frame].SetX(x);
+    images[current_frame].SetY(y);
+    images[current_frame].Draw();
+
+    // Nächster Frame
+    current_frame = (current_frame + 1) % images.Count;
+
+    return 100; // Update-Rate in ms (10 FPS)
+}
+
+// Starte die Animation
+Plymouth.SetUpdateFunction(UpdateAnimation);

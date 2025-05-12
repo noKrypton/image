@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Vendetta
+Description=RedScorpion Plymouth Theme
+ModuleName=script
+
+[script]
+ImageDir=frames
+ScriptFile=vendetta.script
